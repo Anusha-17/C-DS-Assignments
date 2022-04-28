@@ -8,7 +8,7 @@ void main()
     int i,j,k;
     i=1;
     while(i<=rows)
-	{//parent while loop(outer while)
+	{
         j=i;
         while(j<rows)
 		{
@@ -27,7 +27,7 @@ void main()
         k++;
     }
     i++;
-    printf("\n");//Move to the next line for print
+    printf("\n");
     }
     i=0;
     while(i<rows)
